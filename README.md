@@ -1,9 +1,8 @@
 # 🛡️ Mehdi Nacer Kerkar — Personal Portfolio & Advisory Hub
 
-[![Website](https://img.shields.io/badge/Website-mehdikerkar.com-d4863a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mehdikerkar.com)
+[![Website](https://img.shields.io/badge/Website-mehdikerkar.com-d4863a?style=for-the-badge&logo=googlechrome&logoColor=white)]([https://mehdikerkar.com](https://mehdikerkar.github.io/))
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mehdi_Nacer_Kerkar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehdi-nacer-kerkar-cyber-security-consultant/)
 [![Calendly](https://img.shields.io/badge/Calendly-Schedule_Consultation-10B981?style=for-the-badge&logo=calendly&logoColor=white)](https://calendly.com/mehdikerkar_consulting/30min)
-[![Email](https://img.shields.io/badge/Email-mehdikerkarsec%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mehdikerkarsec@gmail.com)
 
 > Personal website and digital profile for **Mehdi Nacer Kerkar** — Senior OT/IT Cybersecurity Specialist, FAST Startup Strategic Advisor, CISO Consultant, and PECB Certified Trainer based in EMEA.
 
