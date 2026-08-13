@@ -53,6 +53,7 @@ The site is engineered with a **clean, lightweight, high-performance web stack**
     │   └── style.css # Core stylesheet
     └── js/
         └── main.js  # Mobile navigation toggle & interactive UI scripts
+```
 
 ## 📜 Standards & Framework Alignment
 
