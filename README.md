@@ -53,3 +53,25 @@ The site is engineered with a **clean, lightweight, high-performance web stack**
     │   └── style.css # Core stylesheet
     └── js/
         └── main.js  # Mobile navigation toggle & interactive UI scripts
+
+## 📜 Standards & Framework Alignment
+
+* **Industrial Security:** ISA/IEC 62443, NIST SP 800-82, Purdue Enterprise Reference Architecture
+* **Information Security & Privacy:** ISO/IEC 27001, ISO/IEC 27002, ISO/IEC 27005, ISO/IEC 27701
+* **Venture & Risk:** FAST (Founder Advisor Standard Template), ISO/IEC 42001 (AI Governance), ISO 22301
+* **Regulations:** DORA, NIS2, GDPR, Saudi NCA (ECC/OTCC), Algerian Laws 18-07 & 25-11
+
+---
+
+## 📬 Connect & Advisory Inquiries
+
+For strategic cybersecurity consulting, OT assessments, PECB certified training, or FAST startup advisory:
+
+* 🌐 **Website:** [mehdikerkar.com](https://mehdikerkar.com)
+* 📅 **Book a Call:** [Calendly 30-Min Consultation](https://calendly.com/mehdikerkar_consulting/30min)
+* 📧 **Email:** [mehdikerkarsec@gmail.com](mailto:mehdikerkarsec@gmail.com)
+* 💼 **LinkedIn:** [linkedin.com/in/mehdi-nacer-kerkar-cyber-security-consultant](https://www.linkedin.com/in/mehdi-nacer-kerkar-cyber-security-consultant/)
+
+---
+
+© 2026 Mehdi Nacer Kerkar. All rights reserved.
