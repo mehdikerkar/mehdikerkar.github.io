@@ -68,9 +68,8 @@ The site is engineered with a **clean, lightweight, high-performance web stack**
 
 For strategic cybersecurity consulting, OT assessments, PECB certified training, or FAST startup advisory:
 
-* 🌐 **Website:** [mehdikerkar.com](https://mehdikerkar.com)
+* 🌐 **Website:** [mehdikerkar]([https://mehdikerkar.com](https://mehdikerkar.github.io/))
 * 📅 **Book a Call:** [Calendly 30-Min Consultation](https://calendly.com/mehdikerkar_consulting/30min)
-* 📧 **Email:** [mehdikerkarsec@gmail.com](mailto:mehdikerkarsec@gmail.com)
 * 💼 **LinkedIn:** [linkedin.com/in/mehdi-nacer-kerkar-cyber-security-consultant](https://www.linkedin.com/in/mehdi-nacer-kerkar-cyber-security-consultant/)
 
 ---
