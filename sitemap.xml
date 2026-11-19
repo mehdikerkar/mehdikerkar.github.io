@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ==================== HOME / ACCUEIL / الرئيسية ==================== -->
+  <url>
+    <loc>https://mehdikerkar.github.io/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/fr/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/ar/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/" />
+  </url>
+
+  <!-- ==================== SERVICES / SERVICES / خدمات الاستشارات ==================== -->
+  <url>
+    <loc>https://mehdikerkar.github.io/services.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/services.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/services.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/services.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/services.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/fr/services.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/services.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/services.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/services.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/services.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/ar/services.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/services.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/services.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/services.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/services.html" />
+  </url>
+
+  <!-- ==================== TRAINING / FORMATIONS / التدريب الاحترافي ==================== -->
+  <url>
+    <loc>https://mehdikerkar.github.io/training.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/training.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/training.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/training.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/training.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/fr/training.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/training.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/training.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/training.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/training.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/ar/training.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/training.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/training.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/training.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/training.html" />
+  </url>
+
+  <!-- ==================== PROJECTS / PROJETS / المشاريع والدراسات ==================== -->
+  <url>
+    <loc>https://mehdikerkar.github.io/projects.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/projects.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/projects.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/projects.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/projects.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/fr/projects.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/projects.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/projects.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/projects.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/projects.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/ar/projects.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/projects.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/projects.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/projects.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/projects.html" />
+  </url>
+
+  <!-- ==================== COMMUNITY / ENGAGEMENT / المجتمع والمؤتمرات ==================== -->
+  <url>
+    <loc>https://mehdikerkar.github.io/community.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/community.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/community.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/community.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/community.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/fr/community.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/community.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/community.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/community.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/community.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/ar/community.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/community.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/community.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/community.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/community.html" />
+  </url>
+
+  <!-- ==================== ABOUT / À PROPOS / السيرة المهنية ==================== -->
+  <url>
+    <loc>https://mehdikerkar.github.io/about.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/about.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/about.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/about.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/fr/about.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/about.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/about.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/about.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/ar/about.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/about.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/about.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/about.html" />
+  </url>
+
+  <!-- ==================== CONTACT / CONTACT / تواصل معي ==================== -->
+  <url>
+    <loc>https://mehdikerkar.github.io/contact.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/contact.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/fr/contact.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/contact.html" />
+  </url>
+  <url>
+    <loc>https://mehdikerkar.github.io/ar/contact.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikerkar.github.io/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mehdikerkar.github.io/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mehdikerkar.github.io/ar/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mehdikerkar.github.io/contact.html" />
+  </url>
+
+</urlset>

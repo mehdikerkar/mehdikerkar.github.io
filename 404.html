@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Page Not Found | Mehdi Nacer Kerkar</title>
+  <meta name="description" content="The requested page could not be found. Explore IT/OT Cybersecurity Advisory, Official PECB Trainings, Projects, and Community Talks by Mehdi Nacer Kerkar.">
+  <meta name="robots" content="noindex, follow">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets (GitHub Pages root + local file:// fallback) -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+
+  <style>
+    html[dir="rtl"] body {
+      font-family: 'Cairo', 'Inter', sans-serif;
+    }
+
+    .error-hero {
+      position: relative;
+      background: linear-gradient(135deg, #0b192c 0%, #0f2544 55%, #162e52 100%);
+      color: #ffffff;
+      padding: 68px 0 64px 0;
+      overflow: hidden;
+      border-bottom: 3px solid var(--accent-amber);
+    }
+
+    .error-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 36px 36px;
+      pointer-events: none;
+    }
+
+    .error-hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 780px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .error-status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #fbbf24;
+      background: rgba(217, 119, 6, 0.16);
+      border: 1px solid rgba(251, 191, 36, 0.35);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      margin-bottom: 18px;
+    }
+
+    .error-code-display {
+      font-family: var(--font-mono);
+      font-size: clamp(4.2rem, 11vw, 6.8rem);
+      font-weight: 800;
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+      background: linear-gradient(180deg, #ffffff 25%, #f59e0b 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin: 0 0 14px 0;
+    }
+
+    .error-hero h1 {
+      font-size: clamp(1.5rem, 3.2vw, 2.2rem);
+      font-weight: 800;
+      color: #ffffff;
+      margin: 0 0 14px 0;
+      line-height: 1.25;
+    }
+
+    .error-hero p {
+      color: #cbd5e1;
+      font-size: 1rem;
+      line-height: 1.65;
+      max-width: 600px;
+      margin: 0 auto 28px auto;
+    }
+
+    .error-path-box {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: #94a3b8;
+      background: rgba(15, 23, 42, 0.65);
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      padding: 6px 14px;
+      border-radius: 6px;
+      margin-bottom: 26px;
+      max-width: 100%;
+      word-break: break-all;
+    }
+
+    .error-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .error-cta-row .btn {
+      width: auto;
+    }
+
+    .error-destinations {
+      padding: 56px 0 64px 0;
+      background: var(--bg-secondary, #f8fafc);
+    }
+
+    .error-dest-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 28px;
+    }
+
+    .error-dest-card {
+      background: #ffffff;
+      border: 1px solid var(--border-subtle, #e2e8f0);
+      border-top: 3px solid var(--primary-navy, #0f172a);
+      border-radius: var(--radius-md, 8px);
+      padding: 22px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-top-color 0.2s ease;
+    }
+
+    .error-dest-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+      border-top-color: var(--accent-amber, #d97706);
+    }
+
+    .error-dest-tag {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent-amber, #d97706);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .error-dest-card h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-primary, #0f172a);
+      margin: 0 0 8px 0;
+    }
+
+    .error-dest-card p {
+      font-size: 0.86rem;
+      color: var(--text-muted, #475569);
+      line-height: 1.55;
+      margin: 0 0 14px 0;
+    }
+
+    .error-dest-link {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--accent-amber, #d97706);
+    }
+
+    @media (max-width: 1024px) {
+      .error-dest-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .error-hero {
+        padding: 48px 0 44px 0;
+      }
+      .error-dest-grid {
+        grid-template-columns: 1fr;
+      }
+      .error-cta-row {
+        flex-direction: column;
+      }
+      .error-cta-row .btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Announcement & Multilingual Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-container">
+      <div class="top-bar-info">
+        <span id="tb-tagline">🛡️ Senior IT/OT Cybersecurity Advisory • International Mobility / EMEA</span>
+      </div>
+      <div class="top-bar-cta-group">
+        <a href="training.html" data-page="training.html" class="top-bar-btn-training">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span id="tb-training">View Trainings &amp; Fees</span>
+        </a>
+        <a href="https://calendly.com/mehdikerkar_consulting/30min" target="_blank" rel="noopener" class="top-bar-btn-schedule">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <span id="tb-call">Schedule Call (30 min)</span>
+        </a>
+        <a href="https://wa.me/?text=Hello%20Mehdi,%20I%20would%20like%20to%20discuss%20an%20advisory%20inquiry" target="_blank" rel="noopener" class="top-bar-btn-whatsapp" aria-label="WhatsApp: @MrMehdiKerkar" title="WhatsApp: @MrMehdiKerkar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/mehdi-nacer-kerkar-cyber-security-consultant/" target="_blank" rel="noopener" class="top-bar-btn-linkedin" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <div class="lang-selector" role="group" aria-label="Language switcher">
+          <a href="index.html" class="lang-pill active" data-lang-home="en">EN</a>
+          <a href="fr/index.html" class="lang-pill" data-lang-home="fr">FR</a>
+          <a href="ar/index.html" class="lang-pill" data-lang-home="ar">العربية</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" data-page="index.html" class="brand-logo">
+        <span class="brand-badge">MNK</span>
+        <div>
+          <span id="brand-name">Mehdi N. Kerkar</span>
+          <span class="brand-subtitle" id="brand-sub">CYBERSECURITY &amp; OT ADVISORY</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" data-page="index.html" class="nav-link" id="nav-home">Home</a></li>
+          <li><a href="services.html" data-page="services.html" class="nav-link" id="nav-services">Services</a></li>
+          <li><a href="training.html" data-page="training.html" class="nav-link" id="nav-training">Training</a></li>
+          <li><a href="projects.html" data-page="projects.html" class="nav-link" id="nav-projects">Projects</a></li>
+          <li><a href="community.html" data-page="community.html" class="nav-link" id="nav-community">Community</a></li>
+          <li><a href="about.html" data-page="about.html" class="nav-link" id="nav-about">About</a></li>
+          <li><a href="contact.html" data-page="contact.html" class="nav-cta" id="nav-contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Executive 404 Hero -->
+    <section class="error-hero">
+      <div class="container">
+        <div class="error-hero-inner">
+          <span class="error-status-pill" id="err-badge">STATUS 404 // ROUTE NOT FOUND</span>
+          <div class="error-code-display">404</div>
+          <h1 id="err-title">This page could not be found</h1>
+          <p id="err-desc">
+            The link you followed may be outdated, moved, or mistyped. Use the buttons below to return to the homepage or jump directly to advisory services, official trainings, or contact channels.
+          </p>
+          <div class="error-path-box" id="err-path-box" style="display: none;"></div>
+          <div class="error-cta-row">
+            <a href="index.html" data-page="index.html" class="btn btn-primary" id="err-btn-home" style="background: var(--accent-amber); border-color: var(--accent-amber); color: #ffffff; font-weight: 700; box-shadow: 0 4px 14px rgba(217, 119, 6, 0.35);">
+              Back to Homepage →
+            </a>
+            <button type="button" id="err-btn-back" class="btn btn-secondary" style="border-color: rgba(255, 255, 255, 0.35); color: #ffffff; background: rgba(255, 255, 255, 0.06);">
+              ← Previous Page
+            </button>
+            <a href="contact.html" data-page="contact.html" class="btn btn-secondary" id="err-btn-contact" style="border-color: rgba(251, 191, 36, 0.5); color: #fbbf24; background: transparent;">
+              Contact Me ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Destinations Section -->
+    <section class="error-destinations">
+      <div class="container">
+        <div class="section-header" style="text-align: center; margin-bottom: 12px;">
+          <span class="mono-tag" id="dest-kicker" style="color: var(--accent-amber); font-weight: 700;">QUICK NAVIGATION</span>
+          <h2 class="section-title" id="dest-heading" style="margin-bottom: 8px;">Where would you like to go?</h2>
+          <p class="section-subtitle" id="dest-sub" style="margin: 0 auto;">Explore core cybersecurity advisory practices, accredited training programs, and verified client engagements.</p>
+        </div>
+
+        <div class="error-dest-grid">
+          <a href="services.html" data-page="services.html" class="error-dest-card">
+            <div>
+              <span class="error-dest-tag" id="d1-tag">01 // ADVISORY</span>
+              <h3 id="d1-title">Advisory Services</h3>
+              <p id="d1-desc">OT &amp; SCADA (ISA/IEC 62443), GRC &amp; vCISO governance, offensive security, and executive strategy.</p>
+            </div>
+            <span class="error-dest-link" id="d1-cta">Explore Services →</span>
+          </a>
+
+          <a href="training.html" data-page="training.html" class="error-dest-card">
+            <div>
+              <span class="error-dest-tag" id="d2-tag">02 // ACADEMY</span>
+              <h3 id="d2-title">Official Trainings</h3>
+              <p id="d2-desc">Accredited PECB ISO 27001, CISO, Lead SCADA Security Manager, and 3-level industrial OT bootcamps.</p>
+            </div>
+            <span class="error-dest-link" id="d2-cta">View Catalog &amp; Fees →</span>
+          </a>
+
+          <a href="projects.html" data-page="projects.html" class="error-dest-card">
+            <div>
+              <span class="error-dest-tag" id="d3-tag">03 // TRACK RECORD</span>
+              <h3 id="d3-title">Projects &amp; Case Studies</h3>
+              <p id="d3-desc">16+ anonymized international engagements across energy, aviation, banking, and critical infrastructure.</p>
+            </div>
+            <span class="error-dest-link" id="d3-cta">View Engagements →</span>
+          </a>
+
+          <a href="community.html" data-page="community.html" class="error-dest-card">
+            <div>
+              <span class="error-dest-tag" id="d4-tag">04 // ECOSYSTEM</span>
+              <h3 id="d4-title">Community &amp; Keynotes</h3>
+              <p id="d4-desc">ISA Algeria Section, OWASP Algiers, international conference slide decks, and recorded YouTube lectures.</p>
+            </div>
+            <span class="error-dest-link" id="d4-cta">Explore Community →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Standardized Executive Footer -->
+  <footer class="footer no-print">
+    <div class="container footer-cta-hub">
+      <div class="footer-top-row">
+        <div class="footer-brand-col">
+          <a href="index.html" data-page="index.html" class="brand-logo">
+            <span class="brand-badge">MNK</span>
+            <div>
+              <span id="ft-brand-name" style="color: #ffffff;">Mehdi N. Kerkar</span>
+              <span class="brand-subtitle" id="ft-brand-sub">CYBERSECURITY &amp; OT ADVISORY</span>
+            </div>
+          </a>
+          <p id="ft-bio">
+            Senior IT/OT Cybersecurity Consultant, PECB Official Certified Trainer, and ISA Algeria Section President. Delivering sovereign cyber resilience, ISA/IEC 62443 industrial control security, and executive GRC advisory across EMEA.
+          </p>
+        </div>
+
+        <div class="footer-actions-col">
+          <a href="https://calendly.com/mehdikerkar_consulting/30min" target="_blank" rel="noopener" class="btn btn-primary" style="background: var(--accent-amber); border-color: var(--accent-amber); color: #ffffff; font-weight: 700; box-shadow: 0 4px 14px rgba(217,119,6,0.35); height: 44px; display: inline-flex; align-items: center; gap: 8px; padding: 0 20px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span id="ft-calendly">Schedule 30-Min Discovery ↗</span>
+          </a>
+          <a href="https://wa.me/?text=Hello%20Mehdi,%20I%20would%20like%20to%20discuss%20an%20advisory%20or%20training%20mandate" target="_blank" rel="noopener" class="footer-icon-btn footer-btn-whatsapp" aria-label="WhatsApp: @MrMehdiKerkar" title="WhatsApp: @MrMehdiKerkar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/mehdi-nacer-kerkar-cyber-security-consultant/" target="_blank" rel="noopener" class="footer-icon-btn footer-btn-linkedin" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://medium.com/@mehdi_nacer_kerkar" target="_blank" rel="noopener" class="footer-icon-btn footer-btn-medium" aria-label="Medium: @mehdi_nacer_kerkar" title="Medium: @mehdi_nacer_kerkar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@MehdiNacerKERKARTV" target="_blank" rel="noopener" class="footer-icon-btn footer-btn-youtube" aria-label="YouTube: @MehdiNacerKERKARTV" title="YouTube: @MehdiNacerKERKARTV">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="https://github.com/mehdikerkar" target="_blank" rel="noopener" class="footer-icon-btn footer-btn-github" aria-label="GitHub: @mehdikerkar" title="GitHub: @mehdikerkar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+          <a href="mailto:mehdikerkarsec@gmail.com" class="footer-icon-btn footer-btn-email" aria-label="Email: mehdikerkarsec@gmail.com" title="Email: mehdikerkarsec@gmail.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-nav-row">
+        <a href="index.html" data-page="index.html" id="fn-home">Home</a>
+        <a href="services.html" data-page="services.html" id="fn-services">Services</a>
+        <a href="training.html" data-page="training.html" id="fn-training">Training</a>
+        <a href="projects.html" data-page="projects.html" id="fn-projects">Projects</a>
+        <a href="community.html" data-page="community.html" id="fn-community">Community</a>
+        <a href="about.html" data-page="about.html" id="fn-about">About</a>
+        <a href="contact.html" data-page="contact.html" id="fn-contact">Contact</a>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; flex-wrap: wrap; gap: 12px; font-size: 0.8rem; color: #64748b; padding-top: 10px;">
+        <div id="ft-copy">
+          © 2026 Mehdi Nacer Kerkar. All rights reserved. Professional advisory &amp; official training services.
+        </div>
+        <div style="display: flex; gap: 14px; font-family: var(--font-mono);">
+          <a href="index.html" data-lang-home="en" id="fl-en" style="color: var(--accent-amber); font-weight: 700; text-decoration: none;">EN</a>
+          <span style="color: #475569;">•</span>
+          <a href="fr/index.html" data-lang-home="fr" id="fl-fr" style="color: #94a3b8; text-decoration: none;">FR</a>
+          <span style="color: #475569;">•</span>
+          <a href="ar/index.html" data-lang-home="ar" id="fl-ar" style="color: #94a3b8; text-decoration: none;">العربية (RTL)</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const isFile = window.location.protocol === 'file:';
+
+      const translations = {
+        en: {
+          dir: 'ltr',
+          title: '404 — Page Not Found | Mehdi Nacer Kerkar',
+          prefix: isFile ? '' : '/',
+          tbTagline: '🛡️ Senior IT/OT Cybersecurity Advisory • International Mobility / EMEA',
+          tbTraining: 'View Trainings & Fees',
+          tbCall: 'Schedule Call (30 min)',
+          brandName: 'Mehdi N. Kerkar',
+          brandSub: 'CYBERSECURITY & OT ADVISORY',
+          nav: { home: 'Home', services: 'Services', training: 'Training', projects: 'Projects', community: 'Community', about: 'About', contact: 'Contact Me' },
+          fnContact: 'Contact',
+          errBadge: 'STATUS 404 // ROUTE NOT FOUND',
+          errTitle: 'This page could not be found',
+          errDesc: 'The link you followed may be outdated, moved, or mistyped. Use the buttons below to return to the homepage or jump directly to advisory services, official trainings, or contact channels.',
+          btnHome: 'Back to Homepage →',
+          btnBack: '← Previous Page',
+          btnContact: 'Contact Me ↗',
+          destKicker: 'QUICK NAVIGATION',
+          destHeading: 'Where would you like to go?',
+          destSub: 'Explore core cybersecurity advisory practices, accredited training programs, and verified client engagements.',
+          d1: ['01 // ADVISORY', 'Advisory Services', 'OT & SCADA (ISA/IEC 62443), GRC & vCISO governance, offensive security, and executive strategy.', 'Explore Services →'],
+          d2: ['02 // ACADEMY', 'Official Trainings', 'Accredited PECB ISO 27001, CISO, Lead SCADA Security Manager, and 3-level industrial OT bootcamps.', 'View Catalog & Fees →'],
+          d3: ['03 // TRACK RECORD', 'Projects & Case Studies', '16+ anonymized international engagements across energy, aviation, banking, and critical infrastructure.', 'View Engagements →'],
+          d4: ['04 // ECOSYSTEM', 'Community & Keynotes', 'ISA Algeria Section, OWASP Algiers, international conference slide decks, and recorded YouTube lectures.', 'Explore Community →'],
+          ftBio: 'Senior IT/OT Cybersecurity Consultant, PECB Official Certified Trainer, and ISA Algeria Section President. Delivering sovereign cyber resilience, ISA/IEC 62443 industrial control security, and executive GRC advisory across EMEA.',
+          ftCalendly: 'Schedule 30-Min Discovery ↗',
+          ftCopy: '© 2026 Mehdi Nacer Kerkar. All rights reserved. Professional advisory & official training services.'
+        },
+        fr: {
+          dir: 'ltr',
+          title: '404 — Page Introuvable | Mehdi Nacer Kerkar',
+          prefix: isFile ? 'fr/' : '/fr/',
+          tbTagline: '🛡️ Conseil Senior Cybersécurité IT/OT • Mobilité Internationale / EMEA',
+          tbTraining: 'Catalogue Formations & Tarifs',
+          tbCall: 'Réserver un Échange (30 min)',
+          brandName: 'Mehdi N. Kerkar',
+          brandSub: 'CYBERSÉCURITÉ & CONSEIL OT',
+          nav: { home: 'Accueil', services: 'Services', training: 'Formations', projects: 'Projets', community: 'Communauté', about: 'À Propos', contact: 'Me Contacter' },
+          fnContact: 'Contact',
+          errBadge: 'ERREUR 404 // PAGE INTROUVABLE',
+          errTitle: 'Cette page est introuvable',
+          errDesc: "Le lien que vous avez suivi a peut-être été déplacé, renommé ou mal saisi. Utilisez les raccourcis ci-dessous pour revenir à l'accueil ou accéder directement aux services, formations officielles et canaux de contact.",
+          btnHome: "Retour à l'Accueil →",
+          btnBack: '← Page Précédente',
+          btnContact: 'Me Contacter ↗',
+          destKicker: 'NAVIGATION RAPIDE',
+          destHeading: 'Où souhaitez-vous aller ?',
+          destSub: "Explorez les 4 piliers de conseil en cybersécurité, les formations accréditées et les réalisations clients.",
+          d1: ['01 // CONSEIL', 'Services de Conseil', 'Sécurité OT & SCADA (ISA/IEC 62443), GRC & vCISO, sécurité offensive et stratégie exécutive.', 'Découvrir les Services →'],
+          d2: ['02 // ACADÉMIE', 'Formations Officielles', 'Certifications accréditées PECB ISO 27001, CISO, Lead SCADA Security Manager et parcours OT 3 niveaux.', 'Voir Catalogue & Tarifs →'],
+          d3: ['03 // RÉALISATIONS', 'Projets & Études de Cas', "Plus de 16 missions internationales anonymisées dans l'énergie, l'aviation, la banque et les OIV.", 'Voir les Projets →'],
+          d4: ['04 // ÉCOSYSTÈME', 'Communauté & Conférences', 'Section ISA Algérie, OWASP Alger, supports de conférences internationales et vidéos YouTube.', 'Explorer la Communauté →'],
+          ftBio: "Consultant Senior en Cybersécurité IT/OT, Formateur Officiel Certifié PECB et Président de la Section ISA Algérie. Conseil souverain en cyber-résilience, sécurité des systèmes industriels ISA/IEC 62443 et gouvernance GRC dans toute la région EMEA.",
+          ftCalendly: 'Réserver un Échange Découverte (30 min) ↗',
+          ftCopy: '© 2026 Mehdi Nacer Kerkar. Tous droits réservés. Services de conseil professionnel & formations officielles.'
+        },
+        ar: {
+          dir: 'rtl',
+          title: '404 — الصفحة غير موجودة | مهدي ناصر كركار',
+          prefix: isFile ? 'ar/' : '/ar/',
+          tbTagline: '🛡️ استشارات الأمن السيبراني IT/OT • تنقل دولي / منطقة EMEA',
+          tbTraining: 'كتالوج التدريب والرسوم',
+          tbCall: 'حجز مكالمة (30 دقيقة)',
+          brandName: 'مهدي ناصر كركار',
+          brandSub: 'استشارات الأمن السيبراني وOT',
+          nav: { home: 'الرئيسية', services: 'الخدمات', training: 'التدريب', projects: 'المشاريع', community: 'المجتمع', about: 'نبذة عني', contact: 'تواصل معي' },
+          fnContact: 'تواصل معي',
+          errBadge: 'خطأ 404 // الصفحة غير موجودة',
+          errTitle: 'عذراً، لم يتم العثور على هذه الصفحة',
+          errDesc: 'قد يكون الرابط الذي اتبعته قديماً أو تم نقله أو كتابته بشكل خاطئ. استخدم الأزرار أدناه للعودة إلى الصفحة الرئيسية أو الانتقال مباشرة إلى الخدمات الاستشارية أو الدورات التدريبية المعتمدة.',
+          btnHome: '← العودة إلى الرئيسية',
+          btnBack: 'الصفحة السابقة →',
+          btnContact: 'تواصل معي ↗',
+          destKicker: 'تنقل سريع',
+          destHeading: 'إلى أين ترغب في الانتقال؟',
+          destSub: 'استكشف محاور الاستشارات السيبرانية، وبرامج التدريب والشهادات المعتمدة، ودراسات الحالة المنجزة.',
+          d1: ['01 // الاستشارات', 'الخدمات الاستشارية', 'أمن الأنظمة التشغيلية OT/SCADA (ISA/IEC 62443)، الحوكمة GRC وvCISO، والأمن التقني.', '← استكشف الخدمات'],
+          d2: ['02 // الأكاديمية', 'التدريب والشهادات الرسمية', 'دورات PECB المعتمدة (ISO 27001، CISO، Lead SCADA) وبرنامج الأمن الصناعي OT بـ 3 مستويات.', '← عرض الكتالوج والرسوم'],
+          d3: ['03 // سجل الأعمال', 'المشاريع ودراسات الحالة', 'أكثر من 16 مشروعاً دولياً في قطاعات الطاقة والطيران والبنوك والبنى التحتية الحيوية.', '← عرض المشاريع'],
+          d4: ['04 // المجتمع', 'المجتمع والمحاضرات', 'رئاسة فرع ISA الجزائر، فرع OWASP الجزائر، عروض المؤتمرات الدولية والمحاضرات المسجلة.', '← استكشف المجتمع'],
+          ftBio: 'استشاري أول في الأمن السيبراني للأنظمة المعلوماتية والصناعية (IT/OT)، ومدرب رسمي معتمد من PECB، ورئيس فرع جمعية أتمتة الأنظمة الدولية (ISA) بالجزائر. تقديم استشارات المرونة السيبرانية وحماية نظم التحكم الصناعي في منطقة EMEA.',
+          ftCalendly: 'حجز جلسة استكشافية (30 دقيقة) ↗',
+          ftCopy: '© 2026 مهدي ناصر كركار. جميع الحقوق محفوظة. استشارات مهنية وخدمات تدريب معتمدة.'
+        }
+      };
+
+      function setText(id, text) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = text;
+      }
+
+      function applyLang(lang) {
+        const t = translations[lang] || translations.en;
+        document.documentElement.lang = lang;
+        document.documentElement.dir = t.dir;
+        document.title = t.title;
+
+        setText('tb-tagline', t.tbTagline);
+        setText('tb-training', t.tbTraining);
+        setText('tb-call', t.tbCall);
+        setText('brand-name', t.brandName);
+        setText('brand-sub', t.brandSub);
+        setText('ft-brand-name', t.brandName);
+        setText('ft-brand-sub', t.brandSub);
+
+        setText('nav-home', t.nav.home);
+        setText('nav-services', t.nav.services);
+        setText('nav-training', t.nav.training);
+        setText('nav-projects', t.nav.projects);
+        setText('nav-community', t.nav.community);
+        setText('nav-about', t.nav.about);
+        setText('nav-contact', t.nav.contact);
+
+        setText('fn-home', t.nav.home);
+        setText('fn-services', t.nav.services);
+        setText('fn-training', t.nav.training);
+        setText('fn-projects', t.nav.projects);
+        setText('fn-community', t.nav.community);
+        setText('fn-about', t.nav.about);
+        setText('fn-contact', t.fnContact);
+
+        setText('err-badge', t.errBadge);
+        setText('err-title', t.errTitle);
+        setText('err-desc', t.errDesc);
+        setText('err-btn-home', t.btnHome);
+        setText('err-btn-back', t.btnBack);
+        setText('err-btn-contact', t.btnContact);
+
+        setText('dest-kicker', t.destKicker);
+        setText('dest-heading', t.destHeading);
+        setText('dest-sub', t.destSub);
+
+        ['d1', 'd2', 'd3', 'd4'].forEach((k) => {
+          setText(k + '-tag', t[k][0]);
+          setText(k + '-title', t[k][1]);
+          setText(k + '-desc', t[k][2]);
+          setText(k + '-cta', t[k][3]);
+        });
+
+        setText('ft-bio', t.ftBio);
+        setText('ft-calendly', t.ftCalendly);
+        setText('ft-copy', t.ftCopy);
+
+        // Update all internal links to point to the selected language folder
+        document.querySelectorAll('a[data-page]').forEach((a) => {
+          const page = a.getAttribute('data-page');
+          a.setAttribute('href', t.prefix + page);
+        });
+
+        // Update all language switcher links (top-bar & footer) with real working hrefs
+        document.querySelectorAll('a[data-lang-home]').forEach((el) => {
+          const code = el.getAttribute('data-lang-home');
+          const targetPrefix = (translations[code] || translations.en).prefix;
+          el.setAttribute('href', targetPrefix + 'index.html');
+          if (el.classList.contains('lang-pill')) {
+            el.classList.toggle('active', code === lang);
+          }
+        });
+
+        // Update active state on footer language links
+        ['en', 'fr', 'ar'].forEach((code) => {
+          const fl = document.getElementById('fl-' + code);
+          if (fl) {
+            fl.style.color = code === lang ? 'var(--accent-amber)' : '#94a3b8';
+            fl.style.fontWeight = code === lang ? '700' : '400';
+          }
+        });
+      }
+
+      // Auto-detect language from requested broken URL path
+      const path = window.location.pathname || '';
+      let initialLang = 'en';
+      if (/\/fr(\/|$)/i.test(path)) initialLang = 'fr';
+      else if (/\/ar(\/|$)/i.test(path)) initialLang = 'ar';
+
+      applyLang(initialLang);
+
+      // Show requested broken path (only on web, not file://)
+      if (!isFile && path && path !== '/404.html') {
+        const pathBox = document.getElementById('err-path-box');
+        if (pathBox) {
+          pathBox.textContent = 'Requested URL: ' + path;
+          pathBox.style.display = 'inline-block';
+        }
+      }
+
+      // Previous page button
+      const backBtn = document.getElementById('err-btn-back');
+      if (backBtn) {
+        backBtn.addEventListener('click', function () {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            const lang = document.documentElement.lang || 'en';
+            window.location.href = (translations[lang] || translations.en).prefix + 'index.html';
+          }
+        });
+      }
+
+      // Self-contained mobile menu toggle
+      const toggle = document.querySelector('.mobile-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      if (toggle && navMenu) {
+        toggle.addEventListener('click', function () {
+          const expanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', String(!expanded));
+          navMenu.classList.toggle('active');
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Mehdi Nacer Kerkar â€” RTL Stylesheet (Arabic)
+   IBM Plex Sans Arabic Typography & Bidirectional Alignment
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans Arabic', 'Plus Jakarta Sans', Tahoma, sans-serif !important;
+  direction: rtl;
+  text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6, .brand-logo, .nav-link, .btn, .mono-tag, .card-title, .credential-title {
+  font-family: 'IBM Plex Sans Arabic', Tahoma, sans-serif !important;
+}
+
+/* Nav Menu RTL */
+.brand-badge {
+  margin-left: 12px;
+  margin-right: 0;
+}
+
+.top-bar-info {
+  direction: rtl;
+}
+
+/* Service domain cards */
+.service-domain-card {
+  border-left: 1px solid var(--border-subtle);
+  border-right: 4px solid var(--accent-amber);
+}
+
+/* Credential boxes */
+.credential-box {
+  border-left: 1px solid var(--border-subtle);
+  border-right: 4px solid var(--accent-amber);
+}
+
+.deliverables-box {
+  border-left: 1px solid var(--border-subtle);
+  border-right: 3px solid var(--accent-cyan);
+}
+
+.deliverables-box li::before {
+  content: 'âœ”';
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+/* Testimonial quote card */
+.testimonial-card {
+  border-left: 1px solid var(--border-subtle);
+  border-right: 4px solid var(--accent-amber);
+}
+
+/* Drawer Navigation */
+@media (max-width: 992px) {
+  nav ul.nav-menu {
+    text-align: right;
+  }
+}
+
+/* Flag & project header */
+.flag-badge {
+  flex-direction: row-reverse;
+}
+
+.project-header-row {
+  flex-direction: row-reverse;
+}
+
+.project-org-badge {
+  flex-direction: row-reverse;
+}
+
+.credential-box {
+  flex-direction: row-reverse;
+  text-align: right;
+}

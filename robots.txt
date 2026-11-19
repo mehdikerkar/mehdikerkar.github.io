@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /_backup_pre_redesign/
+Disallow: /_backup_production_snapshot_20261115/
+Disallow: /_backup_production_snapshot_20261118/
+Disallow: /scratch/
+
+Sitemap: https://mehdikerkar.github.io/sitemap.xml
